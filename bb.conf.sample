@@ -1,0 +1,22 @@
+[default]
+interval = 120
+contact_file = /etc/bb/contacts
+header_file = /etc/bb/header
+notification_repeat_delay=1200
+log_file = /var/log/bb.log
+admin_email = user@email.com
+
+### Twilio config for whatsapp/sms
+[twilio]
+#account_sid = xxxxxxxxxxxxxx
+#auth_token = xxxxxxxxxxx
+#from_number = xxxxxxxxxx
+
+
+### Email config
+[email]
+#smtp_server = smtp.gmail.com
+#smtp_port = 587
+#email = user@email.com
+#password = password
+
