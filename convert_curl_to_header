@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cat $1 |grep '\-H'|sed  "s/  -H //g"|cut -f2 -d"'" 
