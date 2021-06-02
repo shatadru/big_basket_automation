@@ -25,4 +25,4 @@ six==1.14.0
 telegram-send==0.25
 tornado==6.0.4
 twilio==6.38.1
-urllib3==1.25.8
+urllib3==1.26.5
